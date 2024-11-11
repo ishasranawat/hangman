@@ -3,8 +3,6 @@ import random
 
 lives = 6
 
-# TODO-3: - Import the logo from hangman_art.py and print it at the start of the game.
-
 chosen_word = random.choice(word_list)
 print(chosen_word)
 
@@ -19,11 +17,9 @@ correct_letters = []
 
 while not game_over:
 
-    # TODO-6: - Update the code below to tell the user how many lives they have left.
+    
     print("****************************<???>/6 LIVES LEFT****************************")
     guess = input("Guess a letter: ").lower()
-
-    # TODO-4: - If the user has entered a letter they've already guessed, print the letter and let them know.
 
     display = ""
 
