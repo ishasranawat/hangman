@@ -1,6 +1,5 @@
 import random
 
-
 lives = 6
 
 chosen_word = random.choice(word_list)
